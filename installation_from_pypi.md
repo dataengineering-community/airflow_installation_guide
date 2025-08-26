@@ -81,10 +81,20 @@ If your folder is not open already, click on open folder and search for your fol
 Run the following command to install Airflow
 
 ```
-pip install "apache-airflow[celery]==2.8.1" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.8.1/constraints-3.8.txt"
+pip install "apache-airflow==<AIRFLOW_VERSION>" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-<AIRFLOW_VERSION>/constraints-<PYTHON_VERSION>.txt"
 ```
 
-Please refer to the documentation [here](https://airflow.apache.org/docs/apache-airflow/stable/installation/installing-from-pypi.html) if you prefer to install the latest airflow version.
+where:
+- AIRFLOW_VERSION - Airflow version (e.g. 3.0.4).
+- PYTHON_VERSION Python version e.g. 3.9, 3.10, 3.11
+
+For example, to install Airflow version 3.0.4 with Python version 3.11, the command will look like this:
+
+```
+pip install "apache-airflow==3.0.4" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-3.0.4/constraints-3.11.txt"
+```
+
+For latest Airflow version, check the documentation [here](https://airflow.apache.org/docs/apache-airflow/stable/installation/installing-from-pypi.html).
 
 ## Step 6: Setting up environment variables and Python path
 
