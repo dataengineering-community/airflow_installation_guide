@@ -78,17 +78,17 @@ If your folder is not open already, click on open folder and search for your fol
 ![Venv](images/venv.png)
 
 ## Step 5: Install Apache Airflow packages
-Run the following command to install Airflow
+Run the following command to install Airflow:
 
 ```
 pip install "apache-airflow==<AIRFLOW_VERSION>" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-<AIRFLOW_VERSION>/constraints-<PYTHON_VERSION>.txt"
 ```
 
 where:
-- AIRFLOW_VERSION - Airflow version (e.g. 3.0.4).
-- PYTHON_VERSION Python version e.g. 3.9, 3.10, 3.11
+- `AIRFLOW_VERSION` - Airflow version (e.g. 3.0.4).
+- `PYTHON_VERSION` - Python version e.g. 3.9, 3.10, 3.11
 
-For example, to install Airflow version 3.0.4 with Python version 3.11, the command will look like this:
+For example, to install Airflow version 3.0.4 in a Python version 3.11 environment, the command will look like this:
 
 ```
 pip install "apache-airflow==3.0.4" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-3.0.4/constraints-3.11.txt"
