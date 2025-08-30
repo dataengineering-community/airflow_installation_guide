@@ -39,7 +39,7 @@ Replace `version` in the url with the Airflow version you want to install. For e
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/3.0.6/docker-compose.yaml'
 ```
 
-For latest Airflow version, check the documentation [here](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html#fetching-docker-compose-yaml).
+To fetch docker-compose.yaml file for the latest Airflow version, check the documentation [here](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html#fetching-docker-compose-yaml).
 
 ## Step 3: Open Visual Studio Code
 Open Visual Studio Code by typing the command 
