@@ -18,7 +18,7 @@ docker run --rm "debian:bookworm-slim" bash -c 'numfmt --to iec $(echo $(($(getc
 Open your Terminal(Mac) or GitBash (windows) and change directory to your Documents folder
 
 ## Step 1: Create a folder
-Create a folder airflow (or any name you want) in your Documents folder and change directory to the folder
+Create a folder `airflow` (or any name you want) in your Documents folder and change directory to the folder
 ```
 mkdir airflow
 ```
