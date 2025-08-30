@@ -6,7 +6,7 @@ First, make sure you have installed Docker Desktop and Visual Studio code. If no
 
 [Get Visual Studio Code](https://code.visualstudio.com/download)
 
-The minimum memory(RAM) required by Docker to get Airflow up and running is at least 4gb. You can check if you have enough memory by running this command
+The minimum memory(RAM) required by Docker to get Airflow up and running is 4gb. You can check if you have enough memory by running this command
 
 ```
 docker run --rm "debian:bookworm-slim" bash -c 'numfmt --to iec $(echo $(($(getconf _PHYS_PAGES) * $(getconf PAGE_SIZE))))'
