@@ -8,4 +8,4 @@ This repository contains guides on different approaches of installing Apache Air
 
 If you installed Airflow with Docker, you can follow this guide to configure VScode to easily develop Airflow DAGs with Docker
 
-[VScode Setup](configure_vscode_for_airflow_docker.md)
+[VScode Setup](setup_vscode_for_airflow.md)
